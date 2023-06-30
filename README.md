@@ -14,14 +14,17 @@ dequeue() - возвращает первый элемент из очереди
 first() - возвращает первый элемент из очереди, не удаляя.
 Это задание повышенной сложности, для решения задачи потребуется создать класс-обертку над LinkedList, например:
 
- class MyQueue {
+class MyQueue {
     private LinkedList elements = new LinkedList();
+
     public MyQueue() { }
     public MyQueue(LinkedList linkedList) {
         this.elements = linkedList;
     }
+
         .........
- }
+
+}
 
 3. В калькулятор (урок 1 и 2) добавьте возможность отменить последнюю операцию.
 
